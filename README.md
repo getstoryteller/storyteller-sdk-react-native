@@ -42,6 +42,7 @@ or
 To run the sample app (iOS):
 
 ```
+    cd ios && pod install
     yarn example ios
 ```
 
@@ -49,5 +50,6 @@ or
 
 ```
     npm install
+    cd ios && pod install
     npx react-native run-ios
 ```
