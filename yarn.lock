@@ -21,7 +21,7 @@
   "resolved" "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.15.0.tgz"
   "version" "7.15.0"
 
-"@babel/core@*", "@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.12.9", "@babel/core@^7.14.0", "@babel/core@^7.4.0-0", "@babel/core@^7.7.5":
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.12.9", "@babel/core@^7.14.0", "@babel/core@^7.4.0-0", "@babel/core@^7.7.5":
   "integrity" "sha512-pYgXxiwAgQpgM1bNkZsDEq85f0ggXMA5L7c+o3tskGMh2BunCI9QUwB9Z4jpvXUOuMdyGKiGKQiRe11VS6Jzvg=="
   "resolved" "https://registry.npmjs.org/@babel/core/-/core-7.15.5.tgz"
   "version" "7.15.5"
@@ -768,10 +768,10 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
-"@getstoryteller/react-native-storyteller-sdk@^0.9.0":
-  "integrity" "sha512-qsF2VrD9HmdTisu8ZJkZS3Yx1/ZPDzVldliCtpsnSp/F5klV+qv4nOfdwM83i2t+2NgEYSTFubIUSn7BrGgMrw=="
-  "resolved" "file:getstoryteller-react-native-storyteller-sdk-0.9.0.tgz"
-  "version" "0.9.0"
+"@getstoryteller/react-native-storyteller-sdk@^0.9.2":
+  "integrity" "sha512-60pQZsVv46cQCznQVNo2zmsJu5fODQWgeH9ThO1YetiYoSab0K76IMU75P13D65ai3TwNUBCJ6nKRFLA5yTYsw=="
+  "resolved" "https://registry.npmjs.org/@getstoryteller/react-native-storyteller-sdk/-/react-native-storyteller-sdk-0.9.2.tgz"
+  "version" "0.9.2"
 
 "@hapi/hoek@^9.0.0":
   "integrity" "sha512-gfta+H8aziZsm8pZa0vj04KO6biEiisppNgA1kbJvFrrWu9Vm7eaUEy76DIxsuTaWvti5fkJVhllWc6ZTE+Mdw=="
