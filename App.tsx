@@ -43,7 +43,7 @@
            }}>
              <Storyteller
                style={styles.storyContainer}
-               apiKey={"3bf2d93c-7a9b-40af-9217-03409c1aadc6"}
+               apiKey={"test-key"}
                externalUserId={"test-user"}
              />
          </View>

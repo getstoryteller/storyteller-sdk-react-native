@@ -11,7 +11,7 @@
 
 Use this repo as a reference for integrating Storyteller in your React Native App.
 
-Storyteller is also available for [iOS](https://github.com/getstoryteller/storyteller-sample-ios) and [Android](https://github.com/getstoryteller/storyteller-sample-android)
+Storyteller is also available for [iOS](https://github.com/getstoryteller/storyteller-sample-ios), [Android](https://github.com/getstoryteller/storyteller-sample-android) and [Web](https://github.com/getstoryteller/storyteller-sample-web)
 
 For help with Storyteller, please check our [Documentation and User Guide](https://docs.getstoryteller.com/documents/) or contact [support@getstoryteller.com](mailto:support@getstoryteller.com?Subject=React%Native%20Sample%20App).
 
