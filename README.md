@@ -15,6 +15,15 @@ Storyteller is also available for [iOS](https://github.com/getstoryteller/storyt
 
 For help with Storyteller, please check our [Documentation and User Guide](https://docs.getstoryteller.com/documents/) or contact [support@getstoryteller.com](mailto:support@getstoryteller.com?Subject=React%Native%20Sample%20App).
 
+
+## Installing the SDK
+
+To install the package:
+
+```
+    npm install @getstoryteller/react-native-storyteller-sdk
+```
+
 ## Building the Sample App
 
 To run the sample app (Android):
