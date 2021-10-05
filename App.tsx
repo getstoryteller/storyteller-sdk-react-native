@@ -8,108 +8,102 @@
  * @format
  */
 
-import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+ import React from 'react';
+ import {
+   SafeAreaView,
+   ScrollView,
+   StatusBar,
+   StyleSheet,
+   useColorScheme,
+   View,
+ } from 'react-native';
+ 
+ import Storyteller from '@getstoryteller/react-native-storyteller-sdk';
+ 
+ import {
+   Colors,
+ } from 'react-native/Libraries/NewAppScreen';
+ 
+ const App = () => {
+   const isDarkMode = useColorScheme() === 'dark';
+ 
+   const backgroundStyle = {
+     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+   };
+ 
+   return (
+     <SafeAreaView style={backgroundStyle}>
+       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+       <ScrollView
+         contentInsetAdjustmentBehavior="automatic"
+         style={backgroundStyle}>
+         <View
+           style={{
+             backgroundColor: isDarkMode ? Colors.black : Colors.white,
+           }}>
+             <Storyteller
+               style={styles.storyContainer}
+               apiKey={"test-key"}
+               externalUserId={"test-user"}
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+              // learn more - https://docs.getstoryteller.com/documents/react-native-sdk/StorytellerComponent
 
-const Section: React.FC<{
-  title: string;
-}> = ({children, title}) => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
+              // Style of the cell in the row - can be 'round' or 'square'
+              // cellType={} 
 
-const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
+              // Height scale of the cell in the row - default is 1
+              //  cellScale={} 
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+              // Horizontal spacing of the cells in the row - default is 0
+              // cellSpacing={} 
 
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
-};
+              // Left inset of cells in the row - default is 0
+              // leftInset={} 
 
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
+              // Right inset of cells in the row - default is 0
+              // rightInset={} 
 
-export default App;
+              // SDK specific appearance customization
+              // theme={} 
+
+              // Callback for initialization errors
+              // onInitializationFailure={} 
+
+              // Callback for when the SDK starts loading story data
+              // onDataLoadStarted={} 
+
+              // Callback for when the SDK finishes loading story data
+              // onDataLoadCompleted={} 
+
+              // Callback for when the user exits the story player view
+              // onStoryDismiss={} 
+
+              // Callback for when the user interacts with the SDK
+              // onUserActivityOccurred={} 
+
+              // Callback for when the user swipes up on a page configured as inApp link
+              // onUserSwipedUpToApp={} 
+
+              // Callback for when a tile in the row becomes visible
+              // onTileBecameVisible={} 
+
+              // Callback for when the SDK needs ads to render, if your integration uses ads
+              // onGetAdsForRow={} 
+
+              // Callback for when the SDK opens a deep link and reports success
+              // onOpenDeeplinkResult={} 
+             />
+         </View>
+       </ScrollView>
+     </SafeAreaView>
+   );
+ };
+ 
+ const styles = StyleSheet.create({
+   storyContainer: {
+     height: 168,
+     width: 'auto',
+   },
+ });
+ 
+ export default App;

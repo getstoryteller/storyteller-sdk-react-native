@@ -32,6 +32,10 @@ allprojects {
             url("$rootDir/../node_modules/jsc-android/dist")
         }
 
+        // Required for Storyteller SDK native dependencies
+        maven { url 'https://www.myget.org/F/storyteller-android-sdk/maven' }
+        jcenter()
+
         google()
         maven { url 'https://www.jitpack.io' }
     }
