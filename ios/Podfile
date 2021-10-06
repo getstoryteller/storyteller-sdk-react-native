@@ -1,10 +1,17 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+source 'https://github.com/getstoryteller/storyteller-sdk-ios-podspec.git'
 
 platform :ios, '11.0'
 
 target 'StorytellerReactNative' do
   config = use_native_modules!
+  use_frameworks!
+  pod 'Texture', :git => 'https://github.com/getstoryteller/Texture.git',  :branch => '3.0.0-rc.2'
+  pod 'StorytellerSDK'
+  pod 'PINRemoteImage', :git => 'https://github.com/pinterest/PINRemoteImage.git'
+  pod 'PINCache', :git => 'https://github.com/pinterest/PINCache.git'
+  pod 'PINOperation', :git => 'https://github.com/pinterest/PINOperation.git'
 
   use_react_native!(
     :path => config[:reactNativePath],
@@ -21,7 +28,7 @@ target 'StorytellerReactNative' do
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable the next line.
-  use_flipper!()
+  # use_flipper!()
 
   post_install do |installer|
     react_native_post_install(installer)
