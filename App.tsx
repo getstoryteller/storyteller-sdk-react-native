@@ -29,6 +29,7 @@
  
    const backgroundStyle = {
      backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+     flex: 1
    };
  
    return (
@@ -39,6 +40,7 @@
          style={backgroundStyle}>
          <View
            style={{
+             flex: 1,
              backgroundColor: isDarkMode ? Colors.black : Colors.white,
            }}>
              <Storyteller
