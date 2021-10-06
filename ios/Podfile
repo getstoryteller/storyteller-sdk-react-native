@@ -14,7 +14,7 @@ target 'StorytellerReactNative' do
     :hermes_enabled => false
   )
 
-  pod 'Texture', :git => 'https://github.com/getstoryteller/Texture.git', :branch => '3.0.0-rc.2'#, :modular_headers => true
+  pod 'Texture', :git => 'https://github.com/getstoryteller/Texture.git', :branch => '3.0.0-rc.2'
 
   target 'StorytellerReactNativeTests' do
     inherit! :complete
