@@ -50,11 +50,17 @@
 
               // learn more - https://docs.getstoryteller.com/documents/react-native-sdk/StorytellerComponent
 
+              // Categories for which stories will be preloaded
+              // categoriesToPreload={}
+              
+              // Categories for which row will display storie
+              // categories={} 
+              
+              // URL of custom instance to run API
+              // customInstanceHost={}
+
               // Style of the cell in the row - can be 'round' or 'square'
               // cellType={} 
-
-              // Height scale of the cell in the row - default is 1
-              //  cellScale={} 
 
               // Horizontal spacing of the cells in the row - default is 0
               // cellSpacing={} 

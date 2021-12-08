@@ -11,10 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		234724A64607F45F9CA34931 /* libPods-StorytellerReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8AE001E4BBDC0DC2CD9F79 /* libPods-StorytellerReactNative.a */; };
 		4E475319270D80CD002F5479 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E475318270D80CD002F5479 /* File.swift */; };
-		58C0CE8AD87EF066855CFE0E /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8A0D288023553B951EFA52 /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a */; };
+		6BCB97EE5F867D7422381B3E /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E56A2D66DFCCC2DD85CE55C /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82E429DF51B80E6484B769E3 /* libPods-StorytellerReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E32C123E0C818DF07D4355B5 /* libPods-StorytellerReactNative.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +38,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StorytellerReactNative/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StorytellerReactNative/main.m; sourceTree = "<group>"; };
 		192F2DD8B0B2FCF518B7C7B6 /* Pods-StorytellerReactNative-StorytellerReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorytellerReactNative-StorytellerReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E56A2D66DFCCC2DD85CE55C /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StorytellerReactNative-StorytellerReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E475317270D80CD002F5479 /* StorytellerReactNative-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StorytellerReactNative-Bridging-Header.h"; sourceTree = "<group>"; };
 		4E475318270D80CD002F5479 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		5895305B6C601A064B4A7267 /* Pods-StorytellerReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorytellerReactNative.release.xcconfig"; path = "Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative.release.xcconfig"; sourceTree = "<group>"; };
-		6B8A0D288023553B951EFA52 /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StorytellerReactNative-StorytellerReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StorytellerReactNative/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9193C713EF48311BAFE86874 /* Pods-StorytellerReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorytellerReactNative.debug.xcconfig"; path = "Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		E32C123E0C818DF07D4355B5 /* libPods-StorytellerReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StorytellerReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB5ED8F31760C7ED31BF91C /* Pods-StorytellerReactNative-StorytellerReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorytellerReactNative-StorytellerReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
-		EC8AE001E4BBDC0DC2CD9F79 /* libPods-StorytellerReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StorytellerReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C0CE8AD87EF066855CFE0E /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a in Frameworks */,
+				6BCB97EE5F867D7422381B3E /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234724A64607F45F9CA34931 /* libPods-StorytellerReactNative.a in Frameworks */,
+				82E429DF51B80E6484B769E3 /* libPods-StorytellerReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EC8AE001E4BBDC0DC2CD9F79 /* libPods-StorytellerReactNative.a */,
-				6B8A0D288023553B951EFA52 /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a */,
+				E32C123E0C818DF07D4355B5 /* libPods-StorytellerReactNative.a */,
+				1E56A2D66DFCCC2DD85CE55C /* libPods-StorytellerReactNative-StorytellerReactNativeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				6B357EA0D786E7742FF5D605 /* [CP] Embed Pods Frameworks */,
-				55DEE6091EB4AF2EBD55DE6D /* [CP] Copy Pods Resources */,
+				2460AFFE5C0A8BD4E0DDD331 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,7 +188,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				4C3E0A4C24E321479BD68D28 /* [CP] Embed Pods Frameworks */,
-				E4961E906F2E495813A33758 /* [CP] Copy Pods Resources */,
+				1CBA8126B7117F3C49950D1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +269,40 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		1CBA8126B7117F3C49950D1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2460AFFE5C0A8BD4E0DDD331 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4C3E0A4C24E321479BD68D28 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,23 +318,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55DEE6091EB4AF2EBD55DE6D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative-StorytellerReactNativeTests/Pods-StorytellerReactNative-StorytellerReactNativeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5CC071EE80C6F29B626654AB /* [CP] Check Pods Manifest.lock */ = {
@@ -362,23 +379,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E4961E906F2E495813A33758 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StorytellerReactNative/Pods-StorytellerReactNative-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
