@@ -17,6 +17,7 @@
    StyleSheet,
    View,
    NativeEventEmitter,
+   Platform,
  } from 'react-native';
  
  import Storyteller, { StorytellerRowView, StorytellerGridView } from '@getstoryteller/react-native-storyteller-sdk';
@@ -39,7 +40,7 @@ class App extends React.Component<any, any> {
 
    constructor(props: any) {
     super(props);
-    const storytellerEvt = new NativeEventEmitter(Storyteller);
+    const storytellerEvt = Platform.OS === 'ios' ? new NativeEventEmitter(Storyteller) : new NativeEventEmitter();
     storytellerEvt.addListener(ON_USER_ACTIVITY_OCCURED, this._onUserActivityOccurred); // Callback for when the user interacts with the SDK
     storytellerEvt.addListener(USER_SWIPED_UP_TO_APP, this._onUserSwipedUpToApp); // Callback for when the user swipes up on a page configured as inApp link
     storytellerEvt.addListener(GET_ADS_FOR_LIST, this._onGetAdsForList); // Callback for when the SDK needs ads to render, if your integration uses ads
