@@ -121,6 +121,9 @@ class App extends React.Component<any, any> {
               // SDK specific appearance customization
               // theme={} 
 
+              // SDK specific appearance style
+              // uiStyle={} 
+
               // Callback for when the SDK starts loading story data
               // onDataLoadStarted={} 
 
