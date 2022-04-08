@@ -1050,10 +1050,10 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
-"@getstoryteller/react-native-storyteller-sdk@^6.1.2":
-  "integrity" "sha512-Xk/1db5dTBqYflsvGLYpYtUfJ6HtRkq3hhp2SEitNAUsTtfuLIRbus+EczNf9iPY+fT67XiXDxVNU+uehqsyNQ=="
-  "resolved" "https://registry.npmjs.org/@getstoryteller/react-native-storyteller-sdk/-/react-native-storyteller-sdk-6.1.2.tgz"
-  "version" "6.1.2"
+"@getstoryteller/react-native-storyteller-sdk@^7.0.2":
+  "integrity" "sha512-FanwXfKHCZz1kPT0EZIchqivpcRBbYkw8CEIbd+ZUH58syqUAridZFnMWW+xheiqwoKEYBF/4D4jfMzLewXm3w=="
+  "resolved" "https://registry.npmjs.org/@getstoryteller/react-native-storyteller-sdk/-/react-native-storyteller-sdk-7.0.2.tgz"
+  "version" "7.0.2"
 
 "@hapi/hoek@^9.0.0":
   "integrity" "sha512-gfta+H8aziZsm8pZa0vj04KO6biEiisppNgA1kbJvFrrWu9Vm7eaUEy76DIxsuTaWvti5fkJVhllWc6ZTE+Mdw=="
